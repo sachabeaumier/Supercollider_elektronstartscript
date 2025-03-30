@@ -2,7 +2,7 @@ SuperDirt.stop
 
 MIDIClient.init;
 
-~midiOut = MIDIOut.newByName("Elektron Digitone", "Elektron Digitone");\
+~midiOut = MIDIOut.newByName("Elektron Digitone", "Elektron Digitone");
 
 // substitute your own device here ie Syntakt or Digitone 2 etcetc
 
