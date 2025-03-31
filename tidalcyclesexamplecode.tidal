@@ -1,0 +1,14 @@
+
+
+
+d1 $ n "1*4 3*2 9*16 18*32" # s "dgtone" # midichan 0 # ccn 92 # ccv 12
+
+
+d2 $ n "16*2 4*8 8*32 12" # s "dgtone" # midichan 1 # silence
+
+
+d3 $ n "32*8 64 64 8 32 128 8 2" # s "dgtone" # midichan 2 # silence
+
+d4 $ n "0*4 12*2" # s "dgtone" # midichan 3 # silence
+
+d5 $ s "hh*16" # silence
