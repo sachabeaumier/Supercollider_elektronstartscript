@@ -11,6 +11,9 @@ SynthDef(\fm, {
 }).add;
 )
 
+SuperDirt.postTidalParameters([\fm, \default]);
+
+
 // how to start the synth with inital values
 ~fmSynth = Synth.new(\fm, [\freq, 220]);
 // how to alter a synth in real time
